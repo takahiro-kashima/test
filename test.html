@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html xmlns:og="http://ogp.me/ns#" lang="ja">
+<head>
+<meta charset="UTF-8">
+<!--[if IE]>
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<![endif]-->
+<title>GeneLife ジーンライフ | 最先端の技術を駆使し、あなたのDNAから最適なアドバイス</title>
+<meta name="description" content="GeneLife ジーンライフは、最先端の技術を駆使して、あなたのDNAから最適なアドバイスをいたします。予防医学と遺伝学を駆使した、時代を一歩先行くパーソナルな健康管理を、あなたもぜひ体験してみてください。">
+<meta name="keywords" content="">
+<meta name="robots" content="noydir,noodp">
+<meta name="format-detection" content="telephone=no">
+<meta property="og:title" content="">
+<meta property="og:type" content="company">
+<meta property="og:url" content="http://genelife.jp/">
+<meta property="og:image" content="http://genelife.jp/img/common/logo.jpg">
+<meta property="og:site_name" content="Genelife">
+<meta property="og:description" content="">
+<meta property="og:locale" content="ja_JP">
+<meta name="viewport" content="width=device-width, initial-scale = 1.0, maximum-scale=1.0, user-scalable=no">
+<link rel="stylesheet" href="/css/base.css?20140407100447">
+<link rel="stylesheet" href="/css/flexslider.css">
+<link rel="stylesheet" href="http://dev1.genelife.jp/css/promotion.css">
+<link rel="stylesheet" href="http://dev1.genelife.jp/css/etc.css">
+<script type="text/javascript" src="/js/jquery-1.7.2.min.js"></script>
+<script>
+    $(function () {
+        //マウスオーバー
+        $("a img, .gg, .mover").hover(function () {
+            $(this).stop().fadeTo("3000", 0.45);
+        }, function () {
+            $(this).stop().fadeTo("3000", 1.0);
+        });
+
+        // ページ内スクロール
+        $("a[href^=#]").click(function () {
+            var speed = 1000;
+            var href = $(this).attr("href");
+            var target = $(href == "#" || href == "" ? "html" : href);
+            var position = target.offset().top;
+            $($.browser.webkit ? 'body' : 'html').animate({
+                scrollTop: position
+            }, speed, "swing");
+            return (false);
+        });
+        
+        // 開く
+        $(".sttl").click(function () {
+            $(this).next("div").slideDown();
+        });
+        
+        // 閉じる
+        $('.close').click(function () {
+            $(this).parent("div").slideUp();
+        });
+
+        // タブ
+        $("#tabMenu li a").on("click", function () {
+            $("#tabBoxes div").hide();
+            $($(this).attr("href")).fadeToggle();
+        });
+        return false;
+    });
+</script>
+<script>
+//google Analytics
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-32500826-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+</head>
+
+<body>
+<div id="container">
+<!--▼ヘッダー部-->
+<div id="header">
+  <h1> <a href="http://dev1.genelife.jp"><img src="http://dev1.genelife.jp/img/common/logo.jpg" alt=""></a> </h1>
+  <div class="starting_point">
+    <div class="menu">
+      <label class="toggle" for="toggle_flg" onclick="">　MENU　</label>
+    </div>
+    <input id="toggle_flg" class="hide" type="checkbox">
+    <div id="code" class="overlay">
+      <label class="toggle" for="toggle_flg" onclick="">x</label>
+      <p> <a href="http://dev1.genelife.jp/">TOP</a><br>
+        <a href="http://dev1.genelife.jp/haplo/index.html">Haplo</a><br>
+        <span>-Preventive Disease-<br>
+        </span> <a href="http://dev1.genelife.jp/disease/index.html">GeneLife ZERO</a><br>
+        <a href="http://dev1.genelife.jp/mypage/logout">LOGOUT</a><br>
+        <a href="http://dev1.genelife.jp/mypage/index">MYPAGE</a><br>
+        <span>-Beauty &amp; Lifestyle-<br>
+        </span> <a href="http://dev1.genelife.jp/beauty/diet/lp_diet.html">DIET</a><br>
+        <a href="http://dev1.genelife.jp/beauty/skin/lp_skin.html">SKIN</a><br>
+        <a href="http://dev1.genelife.jp/beauty/metabo/lp_metabo.html">METABO</a><br>
+        <a href="http://dev1.genelife.jp/beauty/bone/lp_bone.html">BONE</a><br>
+        <a href="http://dev1.genelife.jp/beauty/alcohol/lp_alcohol.html">ALCOHOL</a><br>
+        <a href="http://dev1.genelife.jp/ec/">Online Store</a><br>
+        <a href="http://dev1.genelife.jp/faq/index.html">Q &amp; A</a><br>
+      </p>
+    </div>
+  </div>
+  <ul>
+    <li><a href="http://dev1.genelife.jp/mypage/index"><img src="/img/common/head_btn01.jpg"></a></li>
+    <li><a href="http://dev1.genelife.jp/mypage/logout"><img src="/img/common/head_btn04.jpg"></a></li>
+    <li><a href="http://dev1.genelife.jp/ec/"><img src="/img/common/head_btn03.jpg"></a></li>
+  </ul>
+  
+  <!-- /#globalHeader --></div>
+<div id="gnavi">
+  <ul class="menumenu">
+    <li><a href="http://dev1.genelife.jp/haplo/index.html" class="gg">Haplo</a></li>
+    <li><a href="http://dev1.genelife.jp/disease/index.html" class="gg">Preventive Disease</a>
+      <ul>
+        <li> <a href="http://dev1.genelife.jp/disease/index.html">GeneLife ZERO</a>
+          <ul>
+            <li><a href="http://dev1.genelife.jp/disease/index.html">リスク遺伝子検査キット</a></li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+    <li><a href="http://dev1.genelife.jp/beauty/index.html" class="gg">Beauty &amp; Lifestyle</a>
+      <ul>
+        <li> <a href="http://dev1.genelife.jp/beauty/diet/lp_diet.html">DIET</a>
+          <ul>
+            <li><a href="http://dev1.genelife.jp/beauty/diet/lp_diet.html">肥満遺伝子検査キット</a></li>
+          </ul>
+        </li>
+        <li> <a href="http://dev1.genelife.jp/beauty/skin/lp_skin.html">SKIN</a>
+          <ul>
+            <li><a href="http://dev1.genelife.jp/beauty/skin/lp_skin.html">肌老化遺伝子検査キット</a></li>
+          </ul>
+        </li>
+        <li> <a href="http://dev1.genelife.jp/beauty/metabo/lp_metabo.html">METABO</a>
+          <ul>
+            <li><a href="http://dev1.genelife.jp/beauty/metabo/lp_metabo.html">メタボ遺伝子検査キット</a></li>
+          </ul>
+        </li>
+        <li> <a href="http://dev1.genelife.jp/beauty/bone/lp_bone.html">BONE</a>
+          <ul>
+            <li><a href="http://dev1.genelife.jp/beauty/bone/lp_bone.html">骨粗しょう症遺伝子検査キット</a></li>
+          </ul>
+        </li>
+        <li> <a href="http://dev1.genelife.jp/beauty/alcohol/lp_alcohol.html">ALCOHOL</a>
+          <ul>
+            <li><a href="http://dev1.genelife.jp/beauty/alcohol/lp_alcohol.html">アルコール遺伝子検査キット</a></li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+    <li><a href="http://dev1.genelife.jp/ec/" class="gg">Online Store</a></li>
+    <li class="last"><a href="http://dev1.genelife.jp/faq/index.html" class="gg">Q &amp; A</a></li>
+  </ul>
+</div>
+<div id="mainWrap">
+  <div id="main" class="clearfix">
+    <div id="body" class="top_cont">
+      <p class="c_top"><img src="/img/promotion/coupon_bn.jpg" alt="" class="maximg"></p>
+      
+      <!--本文-->
+      <div> 3月の販売開始より、大変ご好評を頂いておりますGeneLife®ZEROのお得なクーポンをお届けいたします。<br>
+        自分のルーツが分かる！？祖先遺伝子検査GeneLife®Haploとクーポンご利用にてセットでご購入頂くと、通常39,600円のところ、29,800円(税込)にてご購入いただけます。<br>
+        大変お得なこの機会に是非お試し下さい。<br>
+        <div class="c_code">クーポンコード：●●●●●●</div>
+        <p class="c_term">配信期間：期間：4月7日10時～4月14日9時59分</p>
+        <p style="font-weight:800;">クーポンご利用方法</p>
+        1. 下記より、ご購入ページにお進みください。<br>
+        <p class="c_url"> URL: <a href="test" target="_blank">●●●●●</a></p>
+        <p class="c_fill"><img src="/img/promotion/coupon_fill.jpg" alt="クーポンコード入力" class="mainimg"></p>
+        2. 購入手続きページにて、クーポンコードをご入力ください。<br>
+        ※入力後＋ボタンを必ずクリックしてください。クリックして頂けないと、割引金額が反映されませんのでご注意ください。<br>
+        <br>
+        注意事項：限定個数に達し次第終了致します。<br>
+        その他のクーポンとの併用は出来かねますのでご了承下さい。 </div>
+      <!--/本文--> 
+      
+    </div>
+    <!-- end #main --> 
+  </div>
+  <!-- end #mainWrap -->
+  <div id="snsbody">
+    <ul id="sns_butons">
+      <li class="tw"><a href="https://twitter.com/share" class="twitter-share-button" data-lang="ja">ツイート</a> 
+        <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script> 
+      </li>
+      <li class="fb">
+        <iframe src="//www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2Fpages%2FGeneLife%25E3%2582%25B8%25E3%2583%25BC%25E3%2583%25B3%25E3%2583%25A9%25E3%2582%25A4%25E3%2583%2595%2F261321127261676&amp;width&amp;layout=button_count&amp;action=like&amp;show_faces=false&amp;share=false&amp;height=21" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:101px; height:21px;" allowTransparency="true"></iframe>
+      </li>
+      <li class="google"> 
+        <!-- Place this tag where you want the +1 button to render. -->
+        <div class="g-plusone" data-size="medium"></div>
+        <!-- Place this tag after the last +1 button tag. --> 
+        <script type="text/javascript">
+window.___gcfg = {lang: 'ja'};
+
+  (function() {
+       var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+           po.src = 'https://apis.google.com/js/plusone.js';
+               var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+                 })();
+</script> 
+      </li>
+      <li class="line"> <span> 
+        <script type="text/javascript" src="http://media.line.naver.jp/js/line-button.js?v=20130508" ></script> 
+        <script type="text/javascript">
+new jp.naver.line.media.LineButton({"pc":true,"lang":"ja","type":"a"});
+</script> 
+        </span> </li>
+    </ul>
+  </div>
+  <div id="footernav">
+    <ul id="footerlink">
+      <a href="http://dev1.genelife.jp/associate.html">
+      <li>提携企業一覧</li>
+      </a> <a href="http://dev1.genelife.jp/security.html">
+      <li>セキュリティについて</li>
+      </a> <a href="http://dev1.genelife.jp/policy.html">
+      <li>プライバシーポリシー</li>
+      </a> <a href="http://dev1.genelife.jp/tokushohou.html">
+      <li>特定商取引法に関する表示</li>
+      </a> <a href="http://dev1.genelife.jp/disclaimer.html">
+      <li>免責事項</li>
+      </a> <a href="http://dev1.genelife.jp/sitemap.html">
+      <li>サイトマップ</li>
+      </a> <a href="http://dev1.genelife.jp/recruit/index.html">
+      <li>採用情報</li>
+      </a> <a href="http://dev1.genelife.jp/contact/input">
+      <li>お問合せ</li>
+      </a> <a href="http://genesis-healthcare.jp">
+      <li>運営会社</li>
+      </a>
+    </ul>
+    
+    <!-- /#footernav --></div>
+  <div id="footphone" class="clearfix"> ジェネシスヘルスケア遺伝学検査室<br>
+    <span>0120-863-438</span><br>
+    平日 10:00～17:00 (土・日・祝を除く)<br>
+  </div>
+  <div id="footer">
+    <p><img src="http://dev1.genelife.jp/img/common/footer.jpg" alt="Copyright &#169; All Rights Reserved." class="footerid"></p>
+    <!--<p id="copyright">Copyright (c) 2011-2014 <!--GENESIS HEALTHCARE CO. All Rights Reserved..</p>--> 
+    <!-- /#globalFooter --></div>
+</div>
+</body>
+</html>
